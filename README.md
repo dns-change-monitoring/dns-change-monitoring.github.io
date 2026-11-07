@@ -4,6 +4,16 @@ Live resource: https://dns-change-monitoring.github.io/
 
 Published by [DNS Notify](https://dnsnotify.com/about/). A practical reference for developers who need to monitor DNS changes and investigate DNS change alerts.
 
+## Developer resources
+
+- [DNS change monitoring overview](https://dns-change-monitoring.github.io/): baseline-to-alert workflow and DNS Notify product details.
+- [How to monitor DNS changes](https://dns-change-monitoring.github.io/how-to-monitor-dns-changes/): authoritative lookups, polling design and baseline review.
+- [DNS change alerts](https://dns-change-monitoring.github.io/dns-change-alerts/): worked alert, triage and incident response.
+- [Compare DNS records](https://dns-change-monitoring.github.io/compare-dns-records/): browser-local comparison tool and record examples.
+- [DNS monitoring false positives](https://dns-change-monitoring.github.io/dns-monitoring-false-positives/): type-specific comparison rules and failure handling.
+
+The resource set is published by [DNS Notify](https://dnsnotify.com/dns-change-monitoring/), the hosted service for ongoing DNS change monitoring. The educational site remains usable without a product account.
+
 ## Included
 
 - Browser-local record-value comparison, with no uploads, APIs or persistence.
