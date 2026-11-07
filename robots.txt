@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dns-change-monitoring.github.io/sitemap.xml
