@@ -1,0 +1,19 @@
+# DNS Change Monitoring
+
+> Practical DNS change monitoring resources, reviewed by Mira John.
+
+- [DNS Change Monitoring & DNS Change Alerts](https://dns-change-monitoring.github.io/): DNS change monitoring for developers: compare records, monitor DNS changes at authoritative servers and get useful DNS change alerts with DNS Notify.
+- [How to Monitor DNS Changes: Developer Runbook](https://dns-change-monitoring.github.io/how-to-monitor-dns-changes/): Learn how to monitor DNS changes: inventory records, query authoritative nameservers, preserve lookup status and review a baseline before scheduling checks.
+- [DNS Change Alerts: Examples & Incident Runbook](https://dns-change-monitoring.github.io/dns-change-alerts/): Design useful DNS change alerts with before-and-after records, source evidence and clear response steps. See alert examples and DNS Notify’s email behaviour.
+- [Compare DNS Records: Free Local Comparison Tool](https://dns-change-monitoring.github.io/compare-dns-records/): Compare DNS record values in your browser. Detect additions and removals, ignore answer order and duplicates, and test realistic DNS monitoring examples.
+- [DNS Monitoring False Positives: Comparison Rules](https://dns-change-monitoring.github.io/dns-monitoring-false-positives/): Reduce DNS change monitoring false positives from record order, TTLs, TXT formatting, CNAME chains and lookup errors. Use a practical comparison checklist.
+
+## Publication
+
+- [Mira John](https://dns-change-monitoring.github.io/authors/mira-john/)
+- [RSS updates](https://dns-change-monitoring.github.io/feed.xml)
+- [Atom updates](https://dns-change-monitoring.github.io/atom.xml)
+
+## Continuous monitoring
+
+- [DNS Notify DNS change monitoring](https://dnsnotify.com/dns-change-monitoring/): Monitored public record changes and email alerts with previous and new values.

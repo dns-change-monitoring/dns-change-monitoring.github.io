@@ -1,36 +1,25 @@
-# DNS change monitoring — developer field guide
+# DNS change monitoring — developer guides
 
-Live resource: https://dns-change-monitoring.github.io/
+Live: https://dns-change-monitoring.github.io/
 
-Published by [DNS Notify](https://dnsnotify.com/about/). A practical reference for developers who need to monitor DNS changes and investigate DNS change alerts.
+Reviewed by Mira John. Practical guidance for developers who monitor DNS changes and investigate DNS change alerts.
 
-## Developer resources
+## Resources
 
-- [DNS change monitoring overview](https://dns-change-monitoring.github.io/): baseline-to-alert workflow and DNS Notify product details.
-- [How to monitor DNS changes](https://dns-change-monitoring.github.io/how-to-monitor-dns-changes/): authoritative lookups, polling design and baseline review.
-- [DNS change alerts](https://dns-change-monitoring.github.io/dns-change-alerts/): worked alert, triage and incident response.
-- [Compare DNS records](https://dns-change-monitoring.github.io/compare-dns-records/): browser-local comparison tool and record examples.
-- [DNS monitoring false positives](https://dns-change-monitoring.github.io/dns-monitoring-false-positives/): type-specific comparison rules and failure handling.
+- [DNS Change Monitoring & DNS Change Alerts](https://dns-change-monitoring.github.io/)
+- [How to Monitor DNS Changes: Developer Runbook](https://dns-change-monitoring.github.io/how-to-monitor-dns-changes/)
+- [DNS Change Alerts: Examples & Incident Runbook](https://dns-change-monitoring.github.io/dns-change-alerts/)
+- [Compare DNS Records: Free Local Comparison Tool](https://dns-change-monitoring.github.io/compare-dns-records/)
+- [DNS Monitoring False Positives: Comparison Rules](https://dns-change-monitoring.github.io/dns-monitoring-false-positives/)
 
-The resource set is published by [DNS Notify](https://dnsnotify.com/dns-change-monitoring/), the hosted service for ongoing DNS change monitoring. The educational site remains usable without a product account.
+[RSS updates](https://dns-change-monitoring.github.io/feed.xml) · [Atom updates](https://dns-change-monitoring.github.io/atom.xml) · [Author](https://dns-change-monitoring.github.io/authors/mira-john/)
 
-## Included
+For continuous monitoring, [DNS Notify](https://dnsnotify.com/dns-change-monitoring/) keeps accepted and observed values and sends email alerts.
 
-- Browser-local record-value comparison, with no uploads, APIs or persistence.
-- Authoritative lookup commands using dig.
-- Baseline, failure-handling and incident-response checklists.
-- Clear product affiliation and links to the service's methodology and free tools.
+## Maintenance
 
-This is a static educational project resource. The paid monitoring application runs separately at dnsnotify.com. This site does not provide account, billing or hosted monitoring functionality.
+Static GitHub Pages source; no framework or external fonts. The local comparison tool handles text-value sets and preserves opaque record content. Tables have captions and scoped headers, controls have labels, and transient comparison output is excluded from search snippets.
 
-## Comparison scope
+Publication metadata includes linked article, author, image and tool entities, visible FAQ markup, feed discovery, legacy keywords and llms.txt. It does not invent licensing, credentials, ratings or search outcomes. Existing preview pixels are unchanged. Original verification files must remain byte-exact.
 
-Paste RDATA values for the same name and type, one per line. Line order and duplicate lines are ignored. Case, internal whitespace and trailing dots are preserved. Empty input is rejected to avoid confusing a failed lookup with a deleted record. This is not a complete DNS parser or production monitor.
-
-## Hosting
-
-GitHub Pages, main branch, repository root. No dependencies or build step. Use a local static HTTP server to preview. All main content renders without JavaScript; JavaScript adds only the comparison tool.
-
-## Corrections
-
-Open an issue with the affected section, the observed behaviour and relevant technical evidence. Never include credentials, private zone data or customer details.
+The publication update is maintained in pages/upgrade-github-publication.py in the campaign workspace. Do not rerun the obsolete initial generator over this release.
