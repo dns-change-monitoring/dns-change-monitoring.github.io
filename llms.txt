@@ -17,3 +17,5 @@
 ## Continuous monitoring
 
 - [DNS Notify DNS change monitoring](https://dnsnotify.com/dns-change-monitoring/): Monitored public record changes and email alerts with previous and new values.
+
+- [Image rights and permissions](https://dns-change-monitoring.github.io/image-rights/): Original artwork by Mira John; request written permission for reuse.
